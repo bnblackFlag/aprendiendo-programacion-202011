@@ -1,0 +1,22 @@
+<script>
+    /*
+Array: Segundo más grande: Devuelve el segundo elemento 
+más grande de un array. Dado [42,1,4,3.14,7], devuelve 7.  
+Si el array es muy pequeño, devuelve null.
+    */
+    function n_ultimo(arreglo,n){
+        if(n>arreglo.length){
+            return null;
+        }
+    
+        return arreglo[arreglo.length-n];
+    }
+    
+    var arreglo =[5,2,3,6,4,9,7];
+    var n=3;
+    
+    console.log(n_ultimo(arreglo,n));
+    
+    
+    
+    </script>

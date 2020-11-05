@@ -1,0 +1,127 @@
+#CONTAINER{
+    background-color: rgb(204, 204, 223);
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+}
+#lateralazul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: 30%;
+    height: 400px;
+    background-color: blue;
+}  
+#iniciodepagina{
+    background-color: rgb(65, 212, 28);
+    width: 97%;
+    height: 100px;
+    margin: 20px;
+    margin-top: 10px;
+}
+#cajaroja{
+    background-color:red;
+    width: 60%;
+    height: 500px;
+    display: inline-block;
+    vertical-align:top;
+    margin: 20px;
+    padding: 20px;
+}
+.amarillo1{
+    background-color:yellow;
+    width:20%;
+    height:20%;
+    display: inline-block;
+    vertical-align:center;
+    padding: 28px;
+    margin: 10px;
+}
+.amarillo2{
+    background-color:yellow;
+    width: 20%;
+    height:20%;
+    display: inline-block;
+    vertical-align: center;
+    padding: 28px;
+    margin: 10px;
+}
+.amarillo3{
+    background-color:yellow;
+    width:20%;
+    height:20%;
+    display: inline-block;
+    vertical-align: center;
+    padding: 28px;
+    margin: 10px;
+}
+.morado{
+    background-color:purple;
+    width: 68%;
+    padding:10%;
+    margin: 10px;
+}
+@media only screen and (max-width: 480px) {
+    #iniciodepagina{
+        background-color: rgb(65, 212, 28);
+        width: 62%;
+        height: 50px;
+        margin: 20px;
+        margin-top: 10px
+    }
+    #lateralazul {
+        display: none
+    }  
+    #cajaroja{
+        background-color:red;
+        width: 50%;
+        height: 400px;
+        display: inline-block;
+        vertical-align:top;
+        margin: 20px;
+        padding: 20px;
+    }
+    .amarillo1{
+        background-color:yellow;
+        width:50%;
+        height:5%;
+        padding: 28px;
+        margin: 10px;
+    }
+    .amarillo2{
+        background-color:yellow;
+        width: 50%;
+        height:5%;
+        padding: 28px;
+        margin: 10px;
+    }
+    .amarillo3{
+        background-color:yellow;
+        width:50%;
+        height:5%;
+        padding: 28px;
+        margin: 10px;
+    }
+    .morado{
+        background-color:purple;
+        width: 62%;
+        padding:10%;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 481px) {
+    
+    #lateralazul {
+        display: none
+    } 
+} 
+@media only screen and (min-width:1024px) {
+    #lateralazul {
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px;
+        width: 30%;
+        height: 400px;
+        background-color: blue;
+    }  
+}

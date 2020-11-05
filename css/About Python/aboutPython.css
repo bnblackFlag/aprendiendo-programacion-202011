@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    border-color: solid black;
+    border-width: 1px;
+    border-style: none;
+}
+
+#container_principal{
+    background-color: rgb(17, 94, 182);
+    height: 1100px;
+    width: 970px;
+    vertical-align: auto;
+}
+#opciones{
+    background-color: rgb(45, 45, 160);
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.menu_navegacion{
+    width: 800px;
+    margin: 20px auto;
+    
+}
+.menu_navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+#esquinasupeiorizquierda{
+    width:380px;
+    height:100px; 
+    display: inline-block;
+    position: relative;
+    left:300px;
+}
+
+.Size{
+    position: relative;
+    text-align: center;
+    line-height:50px
+}
+#search{
+    position: relative;
+    top: 15px;
+    left: 20px ;
+}
+
+#boton{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    background-color:rgb(50, 142, 196);
+    color: white;
+}
+
+    
+#bloque_botones{
+    width:250px;
+    height: 50px;
+    background-color: dimgray;
+    position: relative;
+    left:70px;
+    padding: 1px;
+    border-radius: 10px;
+    display:inline-block;
+    vertical-align:top;
+    padding: 10pxs; 
+}
+
+
+#menu_2{
+    background-color: rgb(17, 94, 182);
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px;
+    margin: 15px;font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.lista{
+    list-style: none;
+    text-decoration: none;
+    list-style-type:disc;
+    color: rgb(46, 46, 173);
+}
+
+#texto_principal{
+    background-color: rgb(17, 94, 182);
+    height: 350px;
+    width: 550px;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px;
+    margin: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_amarillo{
+    font-style: italic;
+    font-size: 20px;
+}
+h6{
+    font-size: 15px;
+    text-align: center;
+}
+#fondoblanco{
+    background-color: white;
+    height: 350px;
+    width: 970px;
+    text-align: center;
+}
+
+.gettingstarted{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+}
+.aplications{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+}
+.lista_gettingstarted, .lista_aplications{
+    color: rgb(34, 34, 179);
+    text-align: center;
+}
+
+
+.piedepagina{
+
+    position: relative;
+    left: 0px;
+    line-height:15px;
+    text-align: center;
+    font-size: 25px;
+    color:rgb(31, 140, 224);
+
+}
+
+h4{
+    color:rgb(31, 140, 224);
+    font-size: 15px;
+    text-align: center;
+}

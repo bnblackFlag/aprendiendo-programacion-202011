@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 20px;
+    border-color: solid black;
+    border-width: 1px;
+    border-style: none;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+h1{
+    text-align: top;
+    display: inline-block;
+    vertical-align: top;
+}
+h3{
+    background-color: grey;
+    color: white;
+}
+h4{
+    background-color: grey;
+    color: white;
+}
+
+h5{
+    width: 69px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    
+}
+h6{
+    text-align: center;
+    font-size: 14px;
+}
+
+span{
+    position: relative;
+    font-size: 30px;
+    left: 510px;
+}
+.txtsub{
+    text-decoration: underline;
+}
+#contenedorprincipal{
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    height: 1300px;
+    width: auto;
+}
+#contenedor2{
+    background-color: rgb(45, 20, 48);
+    height: 1000px;
+    width: auto;
+}
+.imgjaine{
+    width:550px;
+    height:338px;
+    display: inline-block;
+}
+#about{
+    height: 350px;
+    width: 510px;
+    color: black;
+    text-align: justify;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px;
+    background-color: white;
+    margin: 15px;
+}
+#lamode, #familycontacts, #fiveeleven{
+    height: 590px;
+    width: 350px;
+    color: black;
+    text-align: justify;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px;
+    background-color: white;
+    margin: 15px;
+}
+.tecnologiesLaMode, .tecnologiesfamilycontacts, .tecnologiesfiveeleven{
+    height: 290px;
+    width: 349px;
+    color: black;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px;
+    background-color: white;
+    margin: 0px;
+
+}
+#redessociales{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+
+}
+
+

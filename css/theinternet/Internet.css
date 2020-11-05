@@ -1,0 +1,248 @@
+#contenedor{
+    width: 900px;
+    height:700px;
+    background-color:white;
+    margin:1px;
+}
+
+#titulos_principales{
+    width: 900px;
+    height: 150px;
+    background-color:white;
+}
+
+.img_world img{
+    width:100px;
+    height:100px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+h1{
+    color: grey;
+    left: 120px;
+    top: 0px;
+    bottom: 50px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.textazul{
+    color:blue;
+}
+
+h2{
+    color: lightgoldenrodyellow;
+    background-color: rgb(26, 119, 206);
+    padding: 30px;
+    position: relative;
+    bottom:30px;
+    line-height:0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bloque_izquierdo{
+    width: 250px;
+    height: 600px;
+    background-color:white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    position: relative;
+    left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.texto1{
+    color: black;
+    font-size: 20px;
+}
+
+.texto2{
+    color: brown;
+    font-size: 20px;
+}
+
+.text3{
+    padding: 30px;
+}
+
+.texto4{
+    color: cornflowerblue;
+}
+
+.texto5{
+    color: cornflowerblue;
+}
+
+#whatchvideo{
+    background-color: royalblue;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+    position: relative;
+    top: 20px;
+    left: 1px;
+    width: 215px;
+}
+
+#resources{
+    background-color: rgb(235, 159, 18);
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+    position: relative;
+    top: 20px;
+    left:1px;
+    width: 215px;
+}
+
+#botonninja{
+    position: absolute;
+    top: 612px;
+    background-color: rgb(36, 114, 218);
+    color:white;
+    z-index:20px;
+    text-align: center;
+    width:150px;
+    height:30px;
+    border-radius: 10px;
+    left:43px;
+}
+
+.ninja img{
+    width: 100px;
+    height: 180px;
+    background-image: url(ad_background.png);
+    padding: 60px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    top: 300px;
+    margin: 1px;
+    position: absolute;
+    z-index:20px;
+    display: inline-block;
+}
+
+.textodeimagen{
+    position: absolute;
+    top:300px;
+    left: 35px;
+    z-index:20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bloque_derecho{
+    width: 560px;
+    height: 790px;
+    background-color:white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    position: relative;
+    left:20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+.num_telefonico{
+    color: rgb(6, 55, 102);
+    display: inline-block;
+    position: relative;
+    left:370px;
+    font-size: 30px;
+    border-color: rgb(41, 15, 189);
+    bottom: 130px;
+}
+
+.textsobrenum{
+    color:rgb(70, 62, 62);
+    font-size:15px;
+    position: relative;
+    bottom:235px;
+    left:280px;
+}
+
+.textbajonum{
+    color:rgb(70, 62, 62);
+    font-size: 15px;
+    position: relative;
+    bottom:200px;
+    left:350px;
+}
+
+.home img{
+    width: 30px;
+    height:30px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DNS{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    color:  rgb(26, 119, 206);  
+}
+
+.phone img{
+    width: 50px;
+    height:50px;
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+}
+
+.img_clientandserver img{
+    position: relative;
+    left:70px;
+    bottom:135px;
+    height: 140px;
+    width: 400px;
+}
+
+
+.imagenfinal img{
+    margin: 7px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.textpiedepagina{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.primerparrafo{
+    position: relative;
+    bottom: 150px;
+}
+
+.segundoparrafo{
+    position: relative;
+    bottom: 100px;
+}
+
+.textpiedepagina{
+    position: relative;
+    bottom: -4px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.imagenfinal{
+    border: solid blue; 
+    margin: 3px;
+    position: relative;
+    bottom:140px;
+}

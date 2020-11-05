@@ -1,0 +1,44 @@
+<script>
+/*
+Array: Segundo más grande: Devuelve el 
+segundo elemento más grande de un array. 
+Dado [42,1,4,3.14,7], devuelve 7. 
+ Si el array es muy pequeño, devuelve null.
+*/
+
+var max=0;
+
+var arreglo= [42,1,4,3.14,7];
+console.log(arreglo);
+max = arreglo[0];
+
+for(var i=1;i<arreglo.length;i++)
+{
+    if(arreglo[i]>max)
+    {
+        max = arreglo[i];
+    }
+}
+
+var arreglo_aux = [];
+for(var i=0;i<arreglo.length;i++)
+{
+    if(arreglo[i]!=max){
+        arreglo_aux.push(arreglo[i]);
+    }
+   
+}
+//[1,4,3.14,7]
+console.log(arreglo_aux);
+max = arreglo_aux[0];
+
+for(var i=1;i<arreglo_aux.length;i++)
+{
+    if(arreglo_aux[i]>max)
+    {
+        max = arreglo_aux[i];
+    }
+}
+console.log(max);
+
+</script>

@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    border-color: blue;
+    border-width: 1px;
+    border-style: dotted;
+   }
+#Tres{
+    display: inline-block;
+    width: 200px;
+}
+#Cuatro{
+    display: inline-block;
+    width: 1000px;
+    vertical-align: TOP;
+}
+#watch{
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    
+}
+#resources{
+    color:white;
+    background-color: orange;
+    border-radius: 5px;
+}

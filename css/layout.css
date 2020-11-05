@@ -1,0 +1,43 @@
+#container{
+    background-color: red;
+    width: 960px;
+    height: auto;
+    display: inline-block;
+    vertical-align:top;
+
+
+
+}
+#box_1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    margin: 20px;
+    padding: 40px;
+
+
+}
+#box_2 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    margin: 20px;
+    padding: 40px;
+
+}
+
+#box_3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black ;
+    margin: 20px;
+    padding: 40px;
+
+}
+#box_1,#box_2,#box_3{
+    display: inline-block;
+    vertical-align:top;
+}

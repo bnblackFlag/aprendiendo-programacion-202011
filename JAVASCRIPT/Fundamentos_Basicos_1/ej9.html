@@ -1,0 +1,25 @@
+<script>
+/*
+Cuadrados: Dado un array con múltiples valores, 
+escribe una función que reemplace cada valor por 
+el cuadrado del mismo valor (ej: [1,5,10,-2] será [1,25,100,4]).
+*/
+//Crear la funcion
+function reemplazaPorCuadrado(arreglo){
+//Agregar logica a la funcion
+var arreglo_final = [];
+    for(var i=0;i<arreglo.length;i++){
+        arreglo_final.push(arreglo[i]*arreglo[i]);
+    }
+    return arreglo_final;
+}
+
+//Crear el arreglo
+var arreglo =[1,5,10,-2];
+console.log(arreglo);
+//llamar a la funcion
+var b=reemplazaPorCuadrado(arreglo);
+//Mostrar el arreglo modificado
+console.log(b);
+
+</script>

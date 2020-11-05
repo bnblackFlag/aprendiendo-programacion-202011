@@ -1,0 +1,27 @@
+<script>
+/*
+Doble Problema Par: Crea una función que 
+cambie un array dado duplicando cada uno de 
+sus elementos en una posición par, y manteniendo
+ el orden original. Convierte [4, "Ulysses", 42, false]   a   
+ [4,4, "Ulysses", 42, 42, false].
+*/
+var arreglo=[4, "Ulysses", 42, false] ;
+console.log(arreglo);
+var arreglo_aux=[];
+
+for(var i=0;i<arreglo.length;i++){
+
+    if(i%2==0){ //i es par
+        arreglo_aux.push(arreglo[i]);
+        arreglo_aux.push(arreglo[i]);
+    }
+    else{
+        arreglo_aux.push(arreglo[i]);
+    }
+}
+console.log(arreglo_aux);
+
+
+
+</script>

@@ -1,0 +1,14 @@
+p{
+    color: rgb(151, 205, 50);
+}
+
+#txt_principal{
+    font-size: 20px;
+    background-color: rgb(87, 0, 128);
+    border:20px solid black;
+}
+
+.txt_info{
+	background-color: rgb(45, 0, 128);
+    border:1px solid black;
+}

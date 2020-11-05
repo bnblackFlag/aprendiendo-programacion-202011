@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    border-color: blue;
+    border-width: 1px;
+    border-style: dotted;
+}
+#contenedor{
+    background-color: chartreuse;
+}
+.img_world img{
+    width:90px;
+    height:90px;
+    position: relative;
+    top:50px;
+}
+
+h1{
+    font-size: 80px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    background-color: skyblue;
+    height: 50px;
+    width: 1240px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+#bloqueizquierdo{
+    display: inline-block;
+    height: 670px;
+    width: 200px;
+    background-color: cyan;
+}
+
+#watchvideo{
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    height: 45px;
+    width: 195px;
+    
+}
+
+#resources{
+    color:white;
+    background-color: orange;
+    border-radius: 5px;
+    height: 45px;
+    width: 195px;
+}
+
+.texto_imagen{
+    position: relative;
+    z-index: 20px;
+    top: 20px;
+    left: 20px;
+}
+.ad_background img{
+    width: 190px;
+    height: 351px;
+    position: absolute;
+    top: 625px;
+    left: 65px;
+}
+.ninja img{
+    width: 120px;
+    height: 193px;
+    position: absolute;
+    top: 705px;
+    left: 102px;
+}
+#learn_more{
+    position: relative;
+    top: 225px;
+    left: 30px;
+    background-color:rgb(50, 142, 196);
+    color: white;
+}
+
+#bloquederecho{
+    display: inline-block;
+    width: 1000px;
+    vertical-align: TOP;
+    background-color: silver;
+}
+
+.num_telefonico{
+    color: rgb(6, 55, 102);
+    display: inline-block;
+    position: relative;
+    left: 748px;
+    font-size: 30px;
+    border-color: rgb(41, 15, 189);
+    bottom: 142px;
+}
+
+.textsobrenum{
+    color: rgb(70, 62, 62);
+    font-size: 15px;
+    position: relative;
+    bottom: 235px;
+    left: 683px;
+
+}
+
+.textbajonum{
+    color: rgb(70, 62, 62);
+    font-size: 15px;
+    position: relative;
+    bottom: 194px;
+    left: 739px;
+}
+
+.home img{
+    width: 30px;
+    height:30px;
+    padding: 8px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DNS{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    color:  rgb(26, 119, 206);
+        
+    }
+
+.phone img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 65px;
+    left: 643px;
+}
+
+
+.linea_2{
+    position: relative;
+    bottom:180px;
+}

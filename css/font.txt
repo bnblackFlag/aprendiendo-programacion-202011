@@ -1,0 +1,3 @@
+cambiar fuente: font-family: 'arial black', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+enlace: text-decoration: underline;
+para configurar borde: border: 2px solid rgb(5, 5, 5);
